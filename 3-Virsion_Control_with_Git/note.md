@@ -4,7 +4,7 @@
 git -v
 git --version
 ```
-- **Configure Git
+- **Configure Git**
     * Set your username:
     ```bash
     git config --global user.name "Your Name"
@@ -18,7 +18,8 @@ git --version
     git config --global core.editor "code --wait"  # VS COde#
     git config --global core.editor "idea --wait"  # Java IDEAL 
     ```
-    * Caching Credentials: To avoid entering your username and password every time you interact with a remote repository, you can enable ```bash
+    * Caching Credentials: To avoid entering your username and password every time you interact with a remote repository, you can enable 
+    ```bash
     git config --global credential.helper cache
     ```
 ## Important Terminology
@@ -71,9 +72,9 @@ Suppose a programmer wants to merge the changes from a branch called test into  
 merge conflicts can occur when changes are made to the same line of code in both branches. In this case, Git cannot determine which change to accept, and it’s up to the programmer to manually resolve the conflict.
 ## Ways to Avoid Merge Conflicts
 - **1. Use Dry-Run Merges**: Git provides a dry-run option that simulates the merge without applying it. This allows you to check for potential conflicts before proceeding. Use:
-```bash 
-git merge --no-commit --no-ff <branch>
-```
+    ```bash 
+    git merge --no-commit --no-ff <branch>
+    ```
     * Git 会做三件事：
         - 进行一次完整的合并计算（diff + patch）。
         - 把合并结果写入工作区（Working Directory）。
@@ -90,7 +91,7 @@ git merge --no-commit --no-ff <branch>
         ```
         - 直接丢弃工作区和暂存区中所有合并带来的更改
         - 仓库恢复到执行 merge 之前的完整状态，就像从未尝试过这次合并。
-- **1. Use Dry-Run Merges - typical process**:
+- **2. Use Dry-Run Merges - typical process**:
 ```bash
 git merge --no-commit --no-ff feature/login   # 试合并
 # 发现冲突或不满意
@@ -106,7 +107,7 @@ When starting a new project with others, you often need to begin with code that 
 git clone <url>
 ```
 - **Renaming the Default Branch**
-    * check the default branch name: *man
+    * check the default branch name: *main
 ```bash
 git branch
 ```
