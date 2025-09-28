@@ -42,21 +42,20 @@ $ mkdir myfolder
 ```bash
 $ cp myfile.txt backup_myfile.txt 
 ```
-## myfile.txt is being duplicated in the same directory with a new name, backup_myfile.txt. ##
+myfile.txt is being duplicated in the same directory with a new name, backup_myfile.txt.
 ```bash
 $ cp myfile.txt myfolder/ 
 ```
-## myfile.txt is being duplicated into the directory called my folder. When moving to a directory, include a / at the end of the directory name.##
-```
+myfile.txt is being duplicated into the directory called my folder. When moving to a directory, include a / at the end of the directory name.
 - **mv**: Moves or renames a file or directory. Enter the new name after the original name.
 ```bash
 $ mv myfile.txt newfile.txt 
 ```
-## myfile.txt is being renamed to newfile.txt.##
+myfile.txt is being renamed to newfile.txt.
 ```bash
 $ mv myfile.txt myfolder/ 
 ```
-## myfile.txt is being moved to the myfolder/ directory. It is not duplicated.##
+myfile.txt is being moved to the myfolder/ directory. It is not duplicated.
 - **rm**: Removes a file. Use rm -r to remove directories. Important warning: This will permanently remove items from the computer and cannot be undone.
 ```bash
 $ rm newfile.txt
