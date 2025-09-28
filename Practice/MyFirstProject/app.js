@@ -1,4 +1,4 @@
-console.log("Hello, World")
+console.log("Hello, World!")
 console.log("This is a test");
 console.log("This sum of 2 + 2 is", 2+2);
 console.log("My favorate color is", "blue.");

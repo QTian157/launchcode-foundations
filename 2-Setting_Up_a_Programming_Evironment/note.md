@@ -50,6 +50,9 @@ Control + `   ## in macOS
 - **什么是主目录(~)**
 C:\Users\<your Windows username>
 
+- **How to copy/select from Terminal in VS Code**
+Shift + 鼠标左键拖动
+
 ## Setting Up Your Programming Environment
 - **Create a file and save as app.js**: This will be the main file where you write and run your JavaScript code.
 - **Verify that Node.js is installed:**
