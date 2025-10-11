@@ -52,12 +52,13 @@
     | `myStr[6] === ' '` | ❌ false | No index 6, returns undefined |
     | `myStr[0] === 'I'` | ✅ true  | `'I'` is at index 0           |
     * Key Takeaways
-        | Concept                   | Description                                            |
-        | ------------------------- | ------------------------------------------------------ |
-        | **Indexing starts at 0**  | The first character is index 0                         |
-        | **Bracket notation**      | Use `string[index]` to access characters               |
-        | **Out-of-range index**    | Returns `undefined`                                    |
-        | **Strings are immutable** | You can read characters but can’t directly change them |
+    
+    | Concept                   | Description                                            |
+    | ------------------------- | ------------------------------------------------------ |
+    | **Indexing starts at 0**  | The first character is index 0                         |
+    | **Bracket notation**      | Use `string[index]` to access characters               |
+    | **Out-of-range index**    | Returns `undefined`                                    |
+    | **Strings are immutable** | You can read characters but can’t directly change them |
 
 
 
