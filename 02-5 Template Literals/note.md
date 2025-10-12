@@ -19,6 +19,35 @@ console.log(fullName);
     * **Hard to format** — you must manually insert \n for new lines.
     * **Hard to embed expressions** — parentheses and operators clutter the code.
 
+- Syntax outline
+```bash
+// 1) 基本使用：反引号
+const s1 = `Hello`;
+
+// 2) 字符串插值：${}
+const name = "Alice";
+const age = 25;
+const s2 = `Hi, I'm ${name} and I'm ${age} years old.`;
+
+// 3) 表达式插值
+const a = 5, b = 3;
+const s3 = `${a} + ${b} = ${a + b}`;
+
+// 4) 多行字符串（无需 \n）
+const s4 = `line 1
+line 2
+line 3`;
+```
+- 提醒：**模板字面量必须用反引号**；只有放在 `...` 内，${...} 才会被计算。
+- 与传统拼接对比
+| 需求   | 传统拼接                         | 模板字面量                          |
+| ---- | ---------------------------- | ------------------------------ |
+| 简单插值 | `"Hello, " + name + "!"`     | `` `Hello, ${name}!` ``        |
+| 表达式  | `"Total: $" + (price * qty)` | `` `Total: $${price * qty}` `` |
+| 多行文本 | `"a\n" + "b\n" + "c"`        | `` `a\nb\nc` ``（换行即生效）         |
+| 可读性  | 随变量增多变差                      | 结构清晰、接近最终输出                    |
+
+
 ## Using Template Literals
 - Template literals fix these issues elegantly.
 - They use backticks (`) and the ${} syntax for embedding dynamic values.
