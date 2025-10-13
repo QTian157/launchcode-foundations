@@ -82,9 +82,8 @@ End
 
 ## Control Flow in JavaScript
 - Control flow determines the order in which statements execute.
----
+
 | Type          | Definition & Description                                                                               |
 | ------------- | ------------------------------------------------------------------------------------------------------ |
 | **Sequence**  | The default flow of execution where code runs line by line, top to bottom, in the order it appears.    |
 | **Iteration** | Repeatedly executes a block of code while a condition remains true or for a specified number of times. |
----
