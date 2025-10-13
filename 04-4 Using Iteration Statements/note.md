@@ -1,4 +1,4 @@
-# 🌀 Using Iteration Statements in JavaScript
+# Using Iteration Statements in JavaScript
 
 ## Introduction
 Iteration is a cornerstone of programming, enabling you to perform repetitive tasks efficiently. Whether you're processing a list of items, searching through data, or generating patterns, iteration statements let you **loop through and manipulate data dynamically**.
